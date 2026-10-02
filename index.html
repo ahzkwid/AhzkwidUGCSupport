@@ -16,8 +16,28 @@ body{
   padding:32px;
   background:#ffffff;
 }
-.container a{
+.container a:not(.profile){
   word-break:break-all;
+}
+.profile{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:16px;
+  color:#1f2328;
+  font-size:20px;
+  font-weight:600;
+  text-decoration:none;
+  word-break:normal;
+}
+.profile:hover{
+  text-decoration:none;
+}
+.profile img{
+  width:48px;
+  height:48px;
+  border-radius:50%;
+  background-color:transparent;
 }
 .lang{
   margin-top:32px;
@@ -40,6 +60,7 @@ body{
 </head>
 <body>
 <main class="markdown-body container">
+  <a class="profile" href="https://github.com/ahzkwid"><img src="https://github.com/ahzkwid.png?size=96" alt="">ahzkwid</a>
   <p data-i18n="desc"></p>
   <h2 data-i18n="works"></h2>
   <p>VRChat Avatars : <a href="https://vrchat.com/home/world/wrld_2401f23c-64b5-42f2-8ae9-37300765fe17/store">https://vrchat.com/home/world/wrld_2401f23c-64b5-42f2-8ae9-37300765fe17/store</a></p>
