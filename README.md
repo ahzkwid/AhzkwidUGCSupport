@@ -1,8 +1,8 @@
 # AhzkwidUGCSupport
 
-This is the support page for inquiries about Ahzkwid's creations.
+This is the support page for inquiries about Ahzkwid's UGC.
 
-Ahzkwidの制作物に関するお問い合わせ窓口です。
+AhzkwidのUGCに関するお問い合わせ窓口です。
 
 # MainPage
 https://ahzkwid.github.io/AhzkwidUGCSupport/
